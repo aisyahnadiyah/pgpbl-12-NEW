@@ -40,6 +40,20 @@
 												placeholder="Nama objek" value="">
 										</div>
 									</div>
+									<div class="col-sm">
+										<div class="form-group">
+											<label for="no telepon"><strong>No Telepon</strong></label>
+											<input type="text" class="form-control text-primary" id="no telepon" name="no telepon"
+												placeholder="No Telepon" value="">
+										</div>
+									</div>
+									<div class="col-sm">
+										<div class="form-group">
+											<label for="rating"><strong>Rating</strong></label>
+											<input type="text" class="form-control text-primary" id="rating" name="rating"
+												placeholder="Rating" value="">
+										</div>
+									</div>
 								</div>
 								<div class="row">
 									<div class="col-sm">
@@ -204,7 +218,7 @@
 			.addTo(map);
 
 		// Submit to google spreadsheet
-		const scriptURL = 'https://script.google.com/macros/s/AKfycbxEx-7vnICnmIy03wnMszc0KhN5Id9TUgO-yttTKT329trfpnZQ3JUEEK4o0bqn7Z0S/exec';
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbykHoB2S8Q-KQR7tUEcqwB7SVWvKgixTMuAy4um77l0u5ELXJ4VHOKxaEJ3HWPzhJIj/exec';
 		const form = document.forms['submit-to-google-sheet'];
 		const btnSimpan = document.querySelector('.btn-simpan');
 		const btnLoading = document.querySelector('.btn-loading');
